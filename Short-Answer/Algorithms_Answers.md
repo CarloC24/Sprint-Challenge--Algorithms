@@ -44,3 +44,19 @@ Space Complexity = 0(1)
 
 Time Complexity = 0(n)
 ---- The function runs on the loop with the number of bunnies we put on the function so it runs 0(n) with n as the number of bunnies
+
+## Exercise II
+
+def eggCalculator(floors,eggs) =
+listwithallthefloors = [[number of floor,eggs] \* number of floors]
+
+            for loop floor  x = 1 to floors
+
+
+                 list[floor] eggs will be =
+
+                 min(infinity,max(    (eggs - 1, floors - 1# egg breaks)  ,
+                 (eggs , floors + 1 #egg does not break)  ))
+            #then we calculate the minimum of each floor by calculating the worst case scenario and best case scenario and maxing out on whats
+
+Now we can define a function that computes the minimum number of drops required to find the critical floor in the worst case scenario, whilst using the best strategy.
