@@ -1,7 +1,5 @@
 # Analysis of Algorithms
 
-Working on it
-
 ## Exercise I
 
 Give an analysis of the running time of each snippet of
